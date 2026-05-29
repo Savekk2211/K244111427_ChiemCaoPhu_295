@@ -1,0 +1,61 @@
+<html>
+    <head>
+        <title>Tiều đề trang</title>
+    </head>
+    <body>
+    <form >
+
+    <table border="0">
+        <tr>
+            <td>Họ và tên :</td>
+            <td><input type="text" name="fullname"></td>
+        </tr>
+
+        <tr>
+            <td>Email :</td>
+            <td><input type="text" name="email"></td>
+        </tr>
+
+        <tr>
+            <td>Giới tính :</td>
+            <td>
+                <input type="radio" name="gender" value="Nam"> Nam
+                <input type="radio" name="gender" value="Nữ" checked> Nữ
+            </td>
+        </tr>
+
+        <tr>
+            <td colspan="2">
+                <input type="checkbox" name="stable_job" value="Co" checked> Tôi đã có nghề nghiệp ổn định
+            </td>
+        </tr>
+
+        <tr>
+            <td>Đến từ</td>
+            <td>
+                <select name="region">
+                    <option value="Bac" selected>Miền Bắc</option>
+                    <option value="Trung">Miền Trung</option>
+                    <option value="Nam">Miền Nam</option>
+                    <option value="Tay">Miền Tây</option>
+                </select>
+            </td>
+        </tr>
+
+        <tr>
+            <td colspan="2">
+                Nội dung cảm nhận về chúng tôi : <br>
+                <textarea name="content" rows="6" cols="50">Nội dung bộc bạch vào đây</textarea>
+            </td>
+        </tr>
+
+        <tr>
+            <td colspan="2" align="right">
+                <button type="submit">Gửi thông điệp</button>
+                <button type="reset">Nhập lại tất cả</button>
+            </td>
+        </tr>
+    </table>
+
+</form>    </body>
+</html>
