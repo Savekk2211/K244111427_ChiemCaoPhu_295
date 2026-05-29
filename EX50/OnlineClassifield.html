@@ -1,0 +1,121 @@
+<html>
+    <head>
+        <title>Tiều đề trang</title>
+    </head>
+    <body style="background-color: rgb(65, 195, 255);">
+         <div><img src="images/DeLong.jpg"></div>
+         <hr>
+            <form>
+             <table border="0">
+                 <tr> 
+                      <td>1) First name:<input type="text" name="first_name"></td> 
+                    <td> Last name: <input type="text" name="last_name"></td>   
+                    </tr>
+             </table>
+               <table border="0">
+                 <tr> 
+                      <td> 2) Social Security Number: <input type="text" name="ssn"></td> 
+                     </td>
+             </table>
+                 <table border="0">
+                 <tr> 
+                     <td>
+                   3) Department:
+                      <td><select name="department">
+                        <option value="">-- Select Department --</option>
+                        <option value="sales">Sales</option>
+                        <option value="marketing">Marketing</option>
+                        <option value="hr">Human Resources</option>
+                        <option value="it">IT</option>
+                            <option value="finance">Finance</option>
+                        </select>
+                  </td> 
+                     </td>
+             </table>
+                    <table border="0">
+                    <tr> 
+                        <td> 4) Describe the purpose of your trip:</td> 
+                        </tr>
+                    <tr>    
+                        <td colspan="3" rowspan="3"><input type="text" name="purpose" style="width: 100%; height: 100px; font-size: 16px;"> </td></tr>
+                        </table>
+           <p>5) Itemize your travel expenses:</p>
+           <table border="1">
+            <tr>
+                <th>Date</th>
+                <th>Description</th>
+                <th>Category</th>
+                <th>Amount</th>
+            </tr>
+            <tr>
+                <td><input type="date" name="expense_date"></td>
+                <td><input type="text" name="expense_description"></td>
+                <td>
+                     <select name="expense_category">
+                          <option value="">-- Chọn danh mục --</option>
+                           <option value="food">Ăn uống</option>
+                            <option value="transport">Di chuyển</option>
+                            <option value="shopping">Mua sắm</option>
+                            <option value="entertainment">Giải trí</option>
+                    </select>
+    </td>
+                <td><input type="number" name="expense_amount" step="0.01"></td>
+                <tr>   
+                    <td><input type="date" name="expense_date"></td>
+                    <td><input type="text" name="expense_description"></td>
+                    <td>
+                     <select name="expense_category">
+                          <option value="">-- Chọn danh mục --</option>
+                           <option value="food">Ăn uống</option>
+                            <option value="transport">Di chuyển</option>
+                            <option value="shopping">Mua sắm</option>
+                            <option value="entertainment">Giải trí</option>
+                    </select>
+    </td>
+                    <td><input type="number" name="expense_amount" step="0.01"></td>
+                </tr>
+                <tr>   
+                    <td><input type="date" name="expense_date"></td>
+                    <td><input type="text" name="expense_description"></td>
+                    <td>
+                     <select name="expense_category">
+                          <option value="">-- Chọn danh mục --</option>
+                           <option value="food">Ăn uống</option>
+                            <option value="transport">Di chuyển</option>
+                            <option value="shopping">Mua sắm</option>
+                            <option value="entertainment">Giải trí</option>
+                    </select>
+    </td>
+                    <td><input type="number" name="expense_amount" step="0.01"></td>
+                </tr>
+                <tr>   
+                    <td><input type="date" name="expense_date"></td>
+                    <td><input type="text" name="expense_description"></td>
+                    <td>
+                     <select name="expense_category">
+                          <option value="">-- Chọn danh mục --</option>
+                           <option value="food">Ăn uống</option>
+                            <option value="transport">Di chuyển</option>
+                            <option value="shopping">Mua sắm</option>
+                            <option value="entertainment">Giải trí</option>
+                    </select>
+    </td>
+                    <td><input type="number" name="expense_amount" step="0.01"></td>
+                </tr>
+           </table>
+           <table border="0">
+            <tr>
+                <td>6) Have you submitted your receipt?</td>
+                <td> <input type="radio" name="receipt_submitted" value="yes">Yes </td>
+                <td><input type="radio" name="receipt_submitted" value="no">No </td>
+            </tr>
+            <tr>
+                <td rowspan="4"> <button type="submit"> Submit travel expenses</button></td>
+                <td rowspan="2"><button type="reset"> Reset </button></td>
+            </tr>
+           </table>
+                       <p> Questions ? Contact Debbie Larson in Accounting (ext 2150).</p>
+
+            </form>
+    </body>
+</html>
